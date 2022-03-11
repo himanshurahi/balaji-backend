@@ -65,10 +65,18 @@
                     </ul>
                 </li> --}}
                 <li class="nav-item">
-                    <a href="{{url('/')}}" class="nav-link">
+                    <a href="{{ url('/') }}" class="nav-link">
                         <i class="nav-icon fas fa-home"></i>
                         <p>
                             Home
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{{ url('/products') }}" class="nav-link">
+                        <i class="nav-icon fas fa-box"></i>
+                        <p>
+                            Products
                         </p>
                     </a>
                 </li>
